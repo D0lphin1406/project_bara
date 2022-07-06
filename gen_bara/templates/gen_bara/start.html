@@ -1,0 +1,19 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+<h2> Заполните все данные </h2>
+<form action="/" method="post">
+    {% csrf_token %}
+    {{ form }}
+    <br><br><button>Отправить</button>
+
+
+</form>
+</body>
+</html>
